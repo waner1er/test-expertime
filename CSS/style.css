@@ -1,0 +1,465 @@
+/*General*/
+@font-face {
+    font-family: 'canela';
+    src: url('../fonts/canela/Canela-Regular.otf')
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf')
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.roboto {
+    font-family: Roboto;
+}
+
+.canela {
+    font-family: canela;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #d3d3d3d3;
+}
+
+.underlined {
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+}
+
+.underlined:hover {
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+
+}
+
+.shadowed {
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.largeButton {
+    background: #FFFFFF;
+    border-radius: 27px;
+}
+
+.largeButton:hover {
+    background-color: #d3d3d3d3;
+    cursor: pointer;
+}
+
+.appOverflow {
+    overflow: hidden;
+    background: url('../medias/img/glass.png');
+    background-size: cover;
+}
+
+span {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.box-part {
+    background: #FFF;
+    border-radius: 0;
+}
+
+
+.text {
+    margin: 20px 10px;
+    width: 90%;
+    position: absolute;
+    top: 122px;
+    background: #fff;
+    padding: 15px;
+}
+
+
+
+
+/*animations (cf scrollFromSide.js)*/
+
+.from-right,
+.from-left {
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.from-right {
+    transform: translate(30px, -30px);
+}
+
+.from-left {
+    transform: translate(-30px, -30px);
+}
+
+/*-------------------------------------------------------------------------------*/
+
+
+
+/*Header*/
+header {
+    background: url('../medias/img/img.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.jumbotron h1 {
+
+    font-size: 64px;
+    line-height: 77px;
+}
+
+#NavBar {
+    height: 90px
+}
+
+nav a {
+    color: white !important;
+    white-space: nowrap;
+}
+
+.unionNbr {
+    background: #DFB57B;
+    color: #fff;
+    padding: auto;
+}
+
+.navMobile {
+    display: none !important;
+}
+
+.panier {
+    width: 145px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+}
+
+.panier ul {
+    list-style-type: none;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+
+/*Video*/
+.discover {
+    top: -60px;
+    background: #fff;
+    padding-top: 50px;
+}
+
+.carouselMobile {
+    display: none;
+}
+
+.carousel-indicators li {
+    background-color: #E2E2E5;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+
+/*App*/
+.appBar {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.appBar div {
+    border-bottom: 3px solid transparent;
+}
+
+.appBar div:hover {
+    border-bottom: 3px solid #E4C291;
+}
+
+
+.carousel-inner {
+    position: relative;
+}
+
+.arrowLeft {
+    background: #000;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    width: 3em;
+}
+
+.arrowRight {
+    background: #000;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    width: 3em;
+}
+
+.selectaMobil {
+    display: none !important;
+    color: #CBA36C;
+}
+
+.marginBtn {
+    margin-top: 115px;
+}
+
+.olivMobile {
+    display: none !important;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+/* Articles */
+#articles h4 {
+    color: #DFB57B !important;
+    font-size: smaller;
+}
+
+
+.articleImg:hover {
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+/*Footer*/
+footer {
+    background: #231F10;
+}
+
+.mailInscription {
+    height: 40px;
+    line-height: 2.5;
+    background-color: #E4C291
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+/*Media queries*/
+@media(min-width:992px) {
+    #mobileVideo {
+        display: none !important;
+    }
+}
+
+
+
+@media(max-width:991px) {
+
+
+    .video {
+        display: none !important;
+    }
+
+    .home {
+        text-align: right;
+        margin: auto;
+        width: 80px;
+    }
+
+    .home img {
+        width: 2em;
+    }
+
+    .App1 h3 {
+        text-align: center;
+    }
+
+    .App1 img {
+        /* width:200px; */
+        margin: auto !important
+    }
+
+    .navMobile {
+        display: block !important;
+    }
+
+    .navDesktop {
+        display: none !important;
+    }
+
+    .ctas {
+        width: 90%
+    }
+
+    .cocktail {
+        width: 100%;
+    }
+
+    .cocktail img {
+        width: 100%;
+    }
+
+}
+
+
+
+@media(min-width:767px) {
+    .market {
+        display: none !important;
+    }
+}
+
+
+
+@media(min-width:992px) {
+    .ctas {
+        display: none;
+    }
+}
+
+
+
+@media(min-width:767px) and (max-width:991px) {
+
+
+    .marginBtn {
+        margin-top: 80px
+    }
+
+    .App1 h3 {
+        background: transparent;
+        color: #000000;
+    }
+
+    .App1 {
+        z-index: 1;
+    }
+
+    .appTxt {
+        z-index: 0;
+    }
+}
+
+
+@media(max-width:767px) {
+    header {
+        background: url('../medias/img/headerimg.jpg');
+        background-size: cover;
+    }
+
+    .panier img {
+        width: 1.3em;
+    }
+
+    .unionNbr {
+        font-size: 1.2em
+    }
+
+    .panier {
+        right: 60px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.9em;
+        font-family: canela;
+        line-height: 50px;
+        margin-top: 266px
+    }
+
+    .underlined p:hover {
+        border-bottom-style: solid;
+        border-bottom-color: #fff;
+    }
+
+    .backGlass {
+        background-image: url('../medias/img/glass.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .appOverflow {
+        background-image: none;
+    }
+
+    .articleImg {
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .largeButton {
+        width: 100%;
+    }
+
+
+    .appTxtMobile {
+        display: block !important;
+    }
+
+    .appTxt {
+        display: none;
+    }
+
+
+    .carouselMobile {
+        display: block;
+    }
+
+    .carouselDesktop {
+        display: none !important;
+    }
+
+
+
+    .selectaMobil {
+        display: block !important;
+    }
+
+    .selectaDesktop {
+        display: none !important;
+    }
+
+
+
+    .olivMobile {
+        display: block !important;
+    }
+
+    .olivDesktop {
+        display: none !important;
+    }
+
+
+
+}
+
+@media(max-width:440px) {
+    .panier {
+        display: none
+    }
+}
+
+/*---------------------------------------------*/
