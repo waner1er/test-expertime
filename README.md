@@ -12,5 +12,5 @@ Veuillez également prêter attention au :
 Comportement réactif (mobile).
 Ajoutez des effets de survol et d'animations (nous voulons voir vos compétences sur ce point)
 
-#points d'informations
+# points d'informations
 Ne disposant pas de styrene B je l'ai remplacé pa roboto
