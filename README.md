@@ -1,4 +1,4 @@
-# test expertime
+# Test expertime
 Les instructions : 
 Mockup: https://www.figma.com/file/QsmF1NcFBEiWg1PqtKcfplLP/Opn?node-id=42%3A2638
 
@@ -12,5 +12,10 @@ Veuillez également prêter attention au :
 Comportement réactif (mobile).
 Ajoutez des effets de survol et d'animations (nous voulons voir vos compétences sur ce point)
 
-# points d'informations
-Ne disposant pas de styrene B je l'ai remplacé pa roboto
+# Points d'informations: 
+- J'ai réalié l'integration du mockup à l'aide de bootstrap.
+- Un script jquery m'a servi pour les apparitions des div au scroll
+
+- Ne disposant pas de styrene B je l'ai remplacé par roboto
+
+
